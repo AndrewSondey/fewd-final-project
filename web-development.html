@@ -3,17 +3,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="Front-End Web Development">
-    <meta name="keywords" content="web design, front-end, web development">
+    <meta name="keywords" content="front-end, web development, web design">
 
 	<title>Andrew Sondey</title>
 
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
 
     <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>  
+    
 </head>
 
 <body class="black-background">
@@ -22,11 +24,19 @@
 <h2><a href="index.html">ANDREW SONDEY</a></h2>
 </div>
 
-<div class="label-left"><p>web development</p></div>
+<div class="label-left">
+<p>web development</p>
+</div>
 
-<div class="label-right"><a href="sound-design.html">sound design</a></div>
+<div class="label-right">
+    <div class="inner-label">
+        <a href="sound-design.html">sound design</a>
+    </div>
+</div>
 
-<div class="email"><a href="#"><img src="icons/email_icon.png" alt="email me" title="email me"></a></div>
+<div class="email-me">
+<a href="contact.html"><img src="icons/email_icon.png" alt="email me" title="email me"></a>
+</div>
 
 <section>
    
@@ -53,7 +63,20 @@
 
 </section>    
 
-<div class="share"><a href="#"><img src="icons/share_button.png" alt="share" title="share with friends"></a></div>
+<div class="share">
+<a href="#"><img src="icons/share_button.png" alt="share" title="share with friends"></a>
+</div>
+
+<div class="share-modal-box">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/AndrewSondeyOfficial/" target="_blank">facebook</a>
+    <a href="https://twitter.com/intent/tweet?text=Look%20at%20this&via=AndrewSondey&hashtags=web,development,sound,design" target="_blank">twitter</a>
+    <a href="https://plus.google.com/share?url=https://plus.google.com/117765718267720218019" target="_blank">google</a>
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url=put here my linkedin profile page`s url" target="_blank">linkedin</a>
+</div>
+
+<div class="overlay"></div>
+
+<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>

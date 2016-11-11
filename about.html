@@ -3,11 +3,17 @@
 <head>
 
     <meta charset="utf-8">
+    <meta name="description" content="About me">
+    <meta name="keywords" content="about, me">
 
 	<title>Andrew Sondey</title>
 
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animation.css">
+
     <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 </head>
 
@@ -17,22 +23,47 @@
 <h2><a href="index.html">ANDREW SONDEY</a></h2>
 </div>
 
+<div class="social-icons">
+    <a href="#">
+        <img src="social/facebook.png" alt="facebook"></a>
+    <a href="#">
+        <img src="social/twitter.png" alt="twitter"></a>
+    <a href="#">
+        <img src="social/linkedin.png" alt="linkedin"></a>
+    <a href="#">
+        <img src="social/instagram.png" alt="instagram"></a>
+    <a href="#">
+        <img src="social/soundcloud.png" alt="soundcloud"></a>
+</div>
+
 <div class="label-left"><a href="web-development.html">web development</a></div>
 
-<div class="label-right"><a href="sound-design.html">sound design</a></div>
+<div class="label-right">
+<div class="inner-label">
+<a href="sound-design.html">sound design</a>
+</div>
+</div>
 
-<div class="email"><a href="#"><img src="icons/email_icon.png" alt="email me" title="email me"></a></div>
+<div class="email-me"><a href="contact.html"><img src="icons/email_icon.png" alt="email me" title="email me"></a></div>
 
 <section>
-    <div class="sound-design-work">
     	<div class="center-float-box">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    	</div>
-    </div>		    
+    	</div>	    
 </section>
 
 <div class="share"><a href="#"><img src="icons/share_button.png" alt="share" title="share with friends"></a></div>
 
-</body>
+<div class="share-modal-box">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/AndrewSondeyOfficial/" target="_blank">facebook</a>
+    <a href="https://twitter.com/intent/tweet?text=Look%20at%20this&via=AndrewSondey&hashtags=web,development,sound,design" target="_blank">twitter</a>
+    <a href="https://plus.google.com/share?url=https://plus.google.com/117765718267720218019" target="_blank">google</a>
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url=put here my linkedin profile page`s url" target="_blank">linkedin</a>
+</div>
 
+<div class="overlay"></div>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
 </html>
