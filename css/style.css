@@ -88,7 +88,6 @@ span{
 	margin-bottom: 5px;
 }	
 
-
 .label-left {
 	position: fixed;
 	left: 5px;
@@ -111,6 +110,16 @@ span{
     -webkit-transform: rotate(-180deg);  /* Safari&Chrome */
 }
 
+
+section {
+	display: block;
+	width: 78%;
+    position: relative;
+    margin: 10px auto;
+    float: none;
+    clear: both;
+}
+
 .underlined-links {
    font-size: 14px;
    text-decoration: underline;
@@ -129,16 +138,21 @@ span{
 	height: 33px;
 }
 
-.share {
-	position: relative;
-	margin-top: 35px;
-	margin-bottom: 30px; 
-}
-
 .quote p{
 	font-size: 15px;
 	font-family: 'Special Elite', cursive;	
 	margin-bottom: 55px;
+}
+
+.share {
+	position: relative;
+	margin-top: 35px;
+
+  /*position: absolute;
+  bottom: 1px;
+  left: 49%;
+  transform: translateY(-50%);
+  clear: both; */
 }
 
 .share img{
@@ -148,6 +162,7 @@ span{
 
 .fewd-tags {
     margin-top: 120px;
+    margin-bottom: 200px;
 }
 
 .fewd-tags li{
@@ -333,7 +348,7 @@ span{
 .categories-box a {
 	display: block;
 	color: #000;
-	font-size: 30px;
+	font-size: 25px;
 	margin-top: 10px;
 }
 
@@ -379,14 +394,6 @@ span{
 	width: 54%;
     position: relative;
     margin: 0 auto;
-    float: none;
-}
-
-section {
-	display: block;
-	width: 78%;
-    position: relative;
-    margin: 10px auto;
     float: none;
 }
 
@@ -460,7 +467,7 @@ section {
 
 @media only screen and (max-width: 768px) and (min-width: 320px) {
   .contact-form {
-    width: 60%;
+    width: 80%;
   }
 }
 
@@ -492,3 +499,10 @@ input[type="submit"] {
 input[type="submit"]:active {
   top: 1px;
 }
+
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+  .submit {
+      width: 40%;
+  }
+}
+
