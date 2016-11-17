@@ -22,44 +22,53 @@
 <h2><a href="index.html">ANDREW SONDEY</a></h2>
 </div>
 
-<li class="about-me"><a href="about.html" title="about me">about me</a></li>
+<li class="about-me"><a href="about.html" title="about me"><span>about me</span></a></li>
 
-<div class="label-left"><a href="web-development.html">web development</a></div>
+<div class="label-left"><a href="fewd/web-development.html">web development</a></div>
 
 <div class="label-right">
 <div class="inner-label">
-<a href="sound-design.html">sound design</a>
+<a href="sound-design/collections.html">sound design</a>
 </div>
 </div>
 
 <div class="social-icons">
-    <a href="#">
+    <a href="https://www.facebook.com/AndrewSondeyOfficial/" target="blank">
         <img src="social/facebook.png" alt="facebook"></a>
-    <a href="#">
+
+    <a href="https://twitter.com/AndrewSondey" target="blank">
         <img src="social/twitter.png" alt="twitter"></a>
+
     <a href="#">
         <img src="social/linkedin.png" alt="linkedin"></a>
-    <a href="#">
+
+    <a href="https://www.instagram.com/andrewsondey/" target="blank">
         <img src="social/instagram.png" alt="instagram"></a>
-    <a href="#">
+
+    <a href="https://soundcloud.com/stream" target="blank">
         <img src="social/soundcloud.png" alt="soundcloud"></a>
 </div>
 
 <div class="contact-form">
-<form action="newsletter.php" method="post">
-<input type="email" id="email" name="email" class="email" placeholder="your email" required/>
+<form action="http://code.kimgoulbourne.com/mailto/send_email.php" method="post" target="form-success">
+<input type="email" name="from_email" class="email" placeholder="Email Address" required/>
+<!--id="email"-->
+<input type="hidden" name="to_email" value="andrewsondey@gmail.com" />
 <br>
-<input type="text" id="name" name="name" class="name" placeholder="your name" required/>
+<input type="text" name="from_name" class="name" placeholder="Name" required/>
+<!--id="name"-->
+<input type="hidden" name="to_name" value="Andriy Sondey" />
 <br>
-<textarea name="letter" class="letter" rows="5" cols="20" placeholder="text" required></textarea>
+<textarea name="letter" class="letter" rows="5" cols="20" placeholder="Text" required></textarea>
 <br>
-<input type="submit" value="Submit">
+<input type="submit" value="submit" class="submit">
 </form>
+<iframe name="form-success" width="0" height="0" style='display:none;'></iframe>
 </div>
 
 <div class="share"><a href="#"><img src="icons/share_button.png" alt="share" title="share with friends"></a></div>
 
-<div class="share-modal-box">
+<div class="modal-box">
 	<a href="https://www.facebook.com/sharer/sharer.php?u=https://www.facebook.com/AndrewSondeyOfficial/" target="_blank">facebook</a>
     <a href="https://twitter.com/intent/tweet?text=Look%20at%20this&via=AndrewSondey&hashtags=web,development,sound,design" target="_blank">twitter</a>
     <a href="https://plus.google.com/share?url=https://plus.google.com/117765718267720218019" target="_blank">google</a>
