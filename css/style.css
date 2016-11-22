@@ -67,26 +67,58 @@ h4 {
 	margin: 20px 0 15px 0;
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+h4 {
+    font-size: 2.0em;
+   }
+}
+
 h5 {
 	font-size: 1.0em;
 	margin: 20px 0 65px 0;
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+h5 {
+    font-size: 2.0em;
+   }
+}
+
 span{
 	color: #000;
     background-color: #fff;
-    padding: 3px 3px 0 3px;
+    padding: 4px 3px 0 3px;
 }
 
 .header {
 	margin-top: 90px;
 	margin-bottom: 65px;
-}	
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+	.header-2 {
+		font-size: 50px;
+	}
+}
 
 .header-2 {
 	margin-top: 90px;
 	margin-bottom: 5px;
 }	
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+	.header-2 {
+		font-size: 50px;
+	}
+}
 
 .label-left {
 	position: fixed;
@@ -141,19 +173,27 @@ section {
 .quote p{
 	font-size: 15px;
 	font-family: 'Special Elite', cursive;	
-	margin-bottom: 55px;
+		margin-bottom:35px;
 }
 
 .share {
-	position: relative;
+    flex: 0 0 auto;
+}
+	/*position: relative;
 	margin-top: 35px;
+	
+
+	 position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
 
   /*position: absolute;
   bottom: 1px;
   left: 49%;
   transform: translateY(-50%);
   clear: both; */
-}
 
 .share img{
 	width: 23px;
@@ -173,7 +213,7 @@ section {
 .fewd-tags li a {
 	position: relative;
 	display: inline-block;
-		outline: none;
+	outline: none;
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -186,6 +226,15 @@ section {
 .fewd-tags li a:hover,
 .fewd-tags li a:focus {
 	outline: none;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+  .fewd-tags li a {
+    font-size: 45px;
+    margin-bottom: 75px;
+  }
 }
 
 .ij-effect-1 a::before,
@@ -239,6 +288,19 @@ section {
 	margin-top: 45px;
 }
 
+.about-me {
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+    .nav-bar, .contact, .social-icons {
+	margin-top: 22px;
+}
+}
+
 .triangle {
 	width: 25px;
 	height: 25px;
@@ -262,7 +324,7 @@ section {
 	height: 91px;
 	position: relative;
 	top: 30px;
-	margin-bottom: 25px;
+	margin-bottom:55px;
 }
 
 .vinyl img {
@@ -391,7 +453,7 @@ section {
 
 .playlist {
 	display: block;
-	width: 54%;
+	width: 60%;
     position: relative;
     margin: 0 auto;
     float: none;
@@ -457,6 +519,50 @@ section {
 	left: 27px;
 }
 
+.contact-info {
+    margin-top: 100px;
+} 
+
+.mail-link{
+    font-size:28px;
+    margin-top:25px;
+    margin-bottom:150px;
+}
+
+.navigation-between-pages {
+    margin-bottom:20px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.navigation-between-pages {
+font-size: 35px;
+margin-top:35px;
+margin-bottom:40px;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.contact-info {
+    font-size: 27px;
+    margin-top: 100px;
+} 
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.mail-link{
+        font-size: 50px;
+        margin-top: 90px;
+        
+}
+}
+
+/*
 .contact-form {
 	display: block;
 	padding: 50px 0 0 0;
@@ -505,4 +611,276 @@ input[type="submit"]:active {
       width: 40%;
   }
 }
+*/
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.categories-box a {
+	display: block;
+	font-size: 85px;
+	margin-top: 20px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.categories-box {
+    width: 70%; 
+	height: 800px;
+	border: 1px solid grey;
+	background: #fff;
+	position: fixed; 
+	top: 1%; 
+	left: 30%;
+	margin-top: -350px;
+	opacity: 0; 
+	z-index: 5; 
+	padding: 20px 10px;
+	display: none;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.tags-block {
+    display: inline-block;
+	width: 100%;
+	height: 90px;
+	position: relative;
+	margin-bottom: 25px;
+	overflow:auto;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.hamburger {
+  display: block;
+  position: absolute;
+  top: 47px;
+  left: 500px;
+  margin-left: 55px;
+  cursor: pointer;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.hamburger span{
+  display: block;
+  width: 50px;
+  height: 6px;
+  background-color: #fff;
+  margin: 7px 0;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.nav-bar, .contact {
+    font-size: 20px;  
+  }  
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+h1 {
+    margin-top: 220px;
+   }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+h5 {
+    font-size: 4.0em;
+    position: relative;
+   }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+h4 {
+    font-size: 2.0em;
+   }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.header, .header-2 {
+	font-size: 50px;
+	}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.playlist {
+	display: block;
+	width: 90%;
+    position: relative;
+    margin: 0 auto;
+    float: none;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+iframe {
+    margin-top:20px;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.modal-box a {
+	display: block;
+	font-size: 105px;
+	margin-top: 10px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.modal-box {
+    width: 70%; 
+	height: 500px;
+	border: 1px solid grey;
+	background: #fff;
+	position: fixed; 
+	top: 1%; 
+	left: 30%;
+	margin-top: -250px;
+	opacity: 0; 
+	z-index: 5; 
+	padding: 20px 10px;
+	display: none;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.social-icons img {
+    width: 45px;
+    height: 45px;
+   }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+   .triangle {
+	width: 35px;
+	height: 35px;
+	margin-top: 55px;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.label-left {
+    font-size: 38px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.label-right {
+    font-size: 38px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.email-me {
+	float: right;
+	position: absolute;
+    right: 5%;
+	top: 81px;   
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.email-me img {
+	width: 75px;
+	height: 85px;
+   }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.quote p {
+    font-size: 35px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.share {
+    flex: 0 0 auto;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.share img{
+	width: 53px;
+	height: 65px;
+   }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+  .fewd-tags li a {
+    font-size: 45px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.sdc-tag li {
+    font-size: 4.0em;
+   }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.vinyl {
+	width: 120px;
+	height: 120px;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 667px) {
+.vinyl p{
+	font-size: 19px;
+}
+}
+
 

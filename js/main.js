@@ -1,17 +1,18 @@
-//---visual animation
-$(document).ready(function() {
-  $('h1, h2, .nav-bar, .email-me, .header, .header-2, .center-float-box-1').addClass('animated fadeInDown');
-  $('.social-icons, .quote, .vinyl, .contact-form, .underheader-description, .tags-block, .buy-buttons, .about-me').addClass('animated flipInX');
-  $('.label-left, .label-right .inner-label').addClass('animated fadeInLeft');
-  $('section, .contact, .triangle, .center-float-box-2').addClass('animated fadeInUp');
-  $('.share, .playlist').addClass('animated fadeInUpBig');
-});
+//---visual animation --- ful code
+//$(document).ready(function() {
+//  $('h1, h2, .nav-bar, .email-me, .header, .header-2, .center-float-box-1').addClass('animated fadeInDown');
+//  $('.social-icons, .quote, .vinyl, .contact-form, .underheader-description, .tags-block, .buy-buttons, .about-me').addClass('animated flipInX');
+//  $('.label-left, .label-right .inner-label').addClass('animated fadeInLeft');
+//  $('section, .contact, .triangle, .center-float-box-2, .mail-link, .contact-info').addClass('animated fadeInUp');
+//  $('.share').addClass('animated fadeInUpBig');
+//});
 
-//$('.vinyl').on('mouseenter', function() {
-//	event.preventDefault();
-  //$('.vinyl span').css('opacity','0');
-  //$('.vinyl p').fadeTo("slow", 0); 
-//  $('.vinyl p').animate({opacity: 0},500);
+//---visual animation for index page --- cutted code
+$(document).ready(function() {
+  $('h1, .nav-bar').addClass('animated fadeInDown');
+  $('.social-icons').addClass('animated flipInX');
+  $('.contact, .triangle').addClass('animated fadeInUp');
+});
 
 //---vinyl animation
 $('.vinyl').on('mouseenter', function (event) {
@@ -87,10 +88,10 @@ $(document).ready(function() {
 });
 
 //---email sender code
-$('form').on('submit', function(e){
-	//e.preventDefault();
-	alert("Your Message was sent!");
-	$('input[type="text"], input[type="email"], textarea').val('');
-});
+//$('form').on('submit', function(e){
+//	//e.preventDefault();
+//	alert("Your Message was sent!");
+//	$('input[type="text"], input[type="email"], textarea').val('');
+//});
 
 
